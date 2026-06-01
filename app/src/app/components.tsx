@@ -1,7 +1,7 @@
 /* Shared inline SVGs for the Log Pose landing. */
 
 export const APP_VERSION = "1.1.0";
-const DOWNLOAD_FILE = `https://github.com/pedruamerico/log-pose/releases/download/${APP_VERSION}/LogPose-Setup-${APP_VERSION}.exe`;
+const DOWNLOAD_FILE = `https://github.com/pedruamerico/log-pose/releases/download/${APP_VERSION}/Log.Pose_${APP_VERSION}_x64-setup.exe`;
 
 export function DownloadIcon() {
   return (
