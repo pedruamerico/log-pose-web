@@ -1,0 +1,37 @@
+# design handoff (prototype/reference only — not part of the site)
+/design_handoff_log_pose_landing/
+
+# dependencies
+**/node_modules
+**/.pnpm-store
+
+# next.js
+**/.next/
+**/out/
+
+# production
+**/build
+
+# testing
+**/coverage
+
+# debug logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# misc
+.DS_Store
+*.pem
+
+# typescript / next
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# env
+**/.env*
+!**/.env.example
+
+# vercel
+**/.vercel
